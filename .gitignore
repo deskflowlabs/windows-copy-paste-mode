@@ -2,3 +2,15 @@ node_modules/
 out/
 *.vsix
 .vscode-test/
+
+# --- dev-backup 監査(2026-09-25)で追加: 秘密・依存・ローカル状態は Git に入れない ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.p8
+*.mobileprovision
+.dev.vars
+.wrangler/
+!.env.example
