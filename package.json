@@ -2,7 +2,7 @@
   "name": "windows-copy-paste-mode",
   "displayName": "Windows Copy Paste Mode",
   "description": "Cursor / VS Code のコピー＆ペーストを、初心者でもワンクリックで Windows アプリに近い感覚へ。書式なしコピペ・ターミナル安全貼り付け・クリップボード画像のターミナル挿入・スイッチ式設定UI・おすすめ設定をまとめて提供（外部送信なし）。",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "deskflowlabs",
   "license": "MIT",
   "repository": {

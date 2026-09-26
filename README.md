@@ -6,6 +6,14 @@
 > この拡張の価値は「高機能なクリップボード管理」ではありません。
 > **「VS Code / Cursor のコピペの違和感を、初心者でもワンクリックで減らせること」** が価値です。
 
+## まずやること（3ステップ）
+
+1. **インストール**: 拡張機能の画面（`Ctrl+Shift+X`）で **Windows Copy Paste Mode** を検索して **Install** を押す
+2. **おすすめ設定をオン**: `Ctrl+Shift+P` を押して **Windows Copy Paste Mode: Apply Recommended Settings** を選ぶ
+3. **いつでも元に戻せます**: 戻したいときは同じく `Ctrl+Shift+P` から **Windows Copy Paste Mode: Restore Previous Settings** を選ぶ
+
+くわしい手順は下の「[いちばん簡単な使い方](#いちばん簡単な使い方)」を見てください。
+
 ---
 
 ## こんな悩みを解決します
@@ -21,6 +29,55 @@
 - VS Code のコピペ挙動に違和感がある初心者
 - AI 開発・ノーコード／ローコード目的の非エンジニア寄りのユーザー
 - ターミナル操作に慣れていない方
+
+---
+
+## いちばん簡単な使い方
+
+### Cursor の場合
+
+1. Cursor を開きます。
+2. **Extensions（拡張機能）** の画面を開きます。
+   - ショートカット: `Ctrl+Shift+X`
+3. 検索欄に **Windows Copy Paste Mode** と入力します。
+4. 表示された **Windows Copy Paste Mode** の **Install** を押します。
+5. インストールが終わったら、`Ctrl+Shift+P` を押します。
+6. 上に出てくる入力欄に `Apply Recommended` と入力し、
+   **Windows Copy Paste Mode: Apply Recommended Settings** を選びます。
+
+これで、Cursor のコピー＆ペーストが、Windows の普通のアプリに近い感覚になります。
+
+元に戻したい場合は、`Ctrl+Shift+P` から
+**Windows Copy Paste Mode: Restore Previous Settings** を選んでください。
+おすすめ設定を使う前の状態に戻ります。
+
+### VS Code の場合
+
+1. VS Code を開きます。
+2. **Extensions（拡張機能）** の画面を開きます。
+   - ショートカット: `Ctrl+Shift+X`
+3. 検索欄に **Windows Copy Paste Mode** と入力します。
+4. 表示された **Windows Copy Paste Mode** の **Install** を押します。
+5. `Ctrl+Shift+P` を押して、**Windows Copy Paste Mode: Apply Recommended Settings** を選びます。
+
+元に戻す方法は Cursor と同じです（**Restore Previous Settings** を選ぶ）。
+
+### ほかの機能を使うには
+
+`Ctrl+Shift+P` を押して `Windows Copy Paste Mode` と入力すると、この拡張でできることが一覧で出てきます。
+それぞれの機能は、下の「[主な機能](#主な機能)」で説明しています。
+
+### 検索で見つからない場合（予備の方法）
+
+ふつうは上の手順だけで大丈夫です。検索しても出てこないときだけ、次の方法を試してください。
+
+1. 公開ページを開きます。
+   - Cursor の場合: [Open VSX の Windows Copy Paste Mode ページ](https://open-vsx.org/extension/deskflowlabs/windows-copy-paste-mode)
+   - VS Code の場合: [Visual Studio Marketplace の Windows Copy Paste Mode ページ](https://marketplace.visualstudio.com/items?itemName=deskflowlabs.windows-copy-paste-mode)
+2. ページのダウンロードボタンから、`.vsix` という名前で終わるファイルを保存します。
+3. Cursor / VS Code で `Ctrl+Shift+P` を押します。
+4. **Extensions: Install from VSIX...** を選びます。
+5. 保存した `.vsix` ファイルを選びます。
 
 ---
 
@@ -113,23 +170,6 @@ Claude Code など、画像をパスで受け取る CLI に「ChatGPT に貼る�
 | `windowsCopyPaste.language` | `auto` | 表示言語（`auto`/`ja`/`en`） |
 
 無効にした機能のコマンドを実行すると、「有効化の方法」を案内します。
-
----
-
-## 使い方
-
-1. コマンドパレットを開く（`Ctrl+Shift+P`）。
-2. `Windows Copy Paste Mode` と入力すると、各コマンドが出てきます。
-3. まずは **Apply Recommended Settings** を試すのがおすすめです。
-4. 元に戻したくなったら **Restore Previous Settings** を実行します。
-
-## Cursor での使い方
-
-Cursor は VS Code 互換のため、同じように使えます。
-
-1. Cursor の拡張機能ビューを開く。
-2. 右上の「…」メニュー →「Install from VSIX...」で本拡張の `.vsix` を選択。
-3. 再読み込み後、コマンドパレットから各コマンドを実行できます。
 
 ---
 
