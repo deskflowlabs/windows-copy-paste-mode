@@ -1,5 +1,7 @@
 # Windows Copy Paste Mode
 
+🌐 **日本語** | [English](README.en.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [한국어](README.ko.md) | [Español](README.es.md) | [Français](README.fr.md)
+
 **VS Code / Cursor のコピー＆ペーストを、Windows の普通のアプリに近い感覚にする拡張機能です。**
 むずかしい設定はいりません。ワンクリックでコピペの「違和感」を減らせます。
 
@@ -102,6 +104,14 @@
 
 > 通常の `Ctrl+C` / `Ctrl+V` は**上書きしません**。今までの操作はそのまま使えます。
 
+### 表示言語
+
+メッセージ・コマンド名・設定の説明は 7 言語に対応しています:
+日本語・英語・中国語（簡体字）・中国語（繁体字）・韓国語・スペイン語・フランス語。
+ふだんは Cursor / VS Code の表示言語に自動で合わせます（それ以外の言語は英語で表示）。
+自分で選びたいときは、設定 `windowsCopyPaste.language` を変えてください。
+（この設定で変わるのは通知や設定パネルの文言です。コマンド名と設定画面の説明は、Cursor / VS Code 本体の表示言語に従います）
+
 ---
 
 ## 画像をターミナルへ（terminal-image-paste）※Windows 専用
@@ -116,6 +126,7 @@ Claude Code など、画像をパスで受け取る CLI に「ChatGPT に貼る�
 
 - **仕組み**: VS Code のクリップボード API はテキストのみを扱えるため、Windows では PowerShell の
   `System.Windows.Forms.Clipboard.GetImage()` で画像を取得・保存し、そのパスを挿入します。
+- `PrintScreen` / `Win+Shift+S` / Snipping Tool（切り取り＆スケッチ）で撮ったスクリーンショットのどれでも使えます。
 - **対応 OS**: 現在は **Windows のみ**。mac/Linux では機能を無効化し、その旨を案内します。
 - 画像がクリップボードに無いときは分かりやすく通知します。
 
@@ -167,7 +178,7 @@ Claude Code など、画像をパスで受け取る CLI に「ChatGPT に貼る�
 | `windowsCopyPaste.backupSettings` | `true` | 適用前にバックアップするか |
 | `windowsCopyPaste.confirmMultiLineTerminalPaste` | `true` | ターミナル複数行貼り付け前に確認するか |
 | `windowsCopyPaste.multiLinePreviewMaxLines` | `5` | 確認時のプレビュー最大行数（1〜20） |
-| `windowsCopyPaste.language` | `auto` | 表示言語（`auto`/`ja`/`en`） |
+| `windowsCopyPaste.language` | `auto` | 表示言語（`auto`/`ja`/`en`/`zh-cn`/`zh-tw`/`ko`/`es`/`fr`） |
 
 無効にした機能のコマンドを実行すると、「有効化の方法」を案内します。
 

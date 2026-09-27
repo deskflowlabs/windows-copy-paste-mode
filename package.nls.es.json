@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings (Aplicar configuración recomendada)",
+  "command.restorePreviousSettings.title": "Restore Previous Settings (Restaurar configuración anterior)",
+  "command.copyPlainText.title": "Copy as Plain Text (Copiar como texto sin formato)",
+  "command.pastePlainText.title": "Paste as Plain Text (Pegar como texto sin formato)",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal (Pegado seguro en la terminal)",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal (Pegar imagen en la terminal: guardar e insertar la ruta)",
+  "command.openSettings.title": "Open Settings (Abrir configuración con interruptores)",
+  "config.enabled.description": "Interruptor principal de la extensión. Si lo desactivas, se desactivan todos los comandos.",
+  "config.showOnboarding.description": "Muestra una breve guía la primera vez que se inicia la extensión.",
+  "config.backupSettings.description": "Hace una copia de seguridad de tu configuración actual antes de aplicar la configuración recomendada (solo la primera vez).",
+  "config.confirmMultiLineTerminalPaste.description": "Muestra un cuadro de confirmación antes de pegar varias líneas en la terminal.",
+  "config.multiLinePreviewMaxLines.description": "Número máximo de líneas de vista previa que se muestran al confirmar un pegado en la terminal.",
+  "config.language.description": "Idioma de los mensajes. `auto` sigue el idioma de la interfaz del editor (inglés si no es compatible). Compatibles: `ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr` (japonés, inglés, chino simplificado, chino tradicional, coreano, español, francés).",
+  "config.features.settings.description": "Activar/desactivar función: comandos para aplicar / restaurar la configuración recomendada.",
+  "config.features.copyPlainText.description": "Activar/desactivar función: copiar como texto sin formato.",
+  "config.features.pastePlainText.description": "Activar/desactivar función: pegar como texto sin formato.",
+  "config.features.safePasteToTerminal.description": "Activar/desactivar función: pegado seguro en la terminal.",
+  "config.features.terminalImagePaste.description": "Activar/desactivar función: guardar la imagen del portapapeles e insertar su ruta en la terminal activa (solo Windows).",
+  "config.terminalImagePaste.saveDirectory.description": "Carpeta (ruta absoluta) donde terminal-image-paste guarda las imágenes. Si está vacía, se guardan en `images` dentro del globalStorage de la extensión.",
+  "config.terminalImagePaste.fileNamePattern.description": "Patrón del nombre de archivo guardado. `YYYY`/`MM`/`DD`/`HH`/`mm`/`ss` se sustituyen por la fecha y la hora. Si no hay extensión, se añade `.png`.",
+  "config.terminalImagePaste.appendTrailingSpace.description": "Añade un espacio después de la ruta insertada en la terminal (facilita seguir escribiendo argumentos de la CLI)."
+}

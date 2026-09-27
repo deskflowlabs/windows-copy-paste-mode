@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings（套用建議設定）",
+  "command.restorePreviousSettings.title": "Restore Previous Settings（還原先前的設定）",
+  "command.copyPlainText.title": "Copy as Plain Text（以純文字複製）",
+  "command.pastePlainText.title": "Paste as Plain Text（以純文字貼上）",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal（安全貼到終端機）",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal（將圖片貼到終端機（儲存並插入路徑））",
+  "command.openSettings.title": "Open Settings（開啟設定（開關））",
+  "config.enabled.description": "擴充功能的總開關。關閉後所有指令都會停用。",
+  "config.showOnboarding.description": "第一次啟動時顯示簡短的使用說明。",
+  "config.backupSettings.description": "套用建議設定前先備份目前的設定（僅第一次套用時）。",
+  "config.confirmMultiLineTerminalPaste.description": "將多行內容貼到終端機前顯示確認對話框。",
+  "config.multiLinePreviewMaxLines.description": "確認終端機貼上時顯示的預覽最大行數。",
+  "config.language.description": "訊息的顯示語言。`auto` 會依照編輯器的顯示語言（不支援的語言會顯示英文）。支援：`ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr`（日文、英文、簡體中文、繁體中文、韓文、西班牙文、法文）。",
+  "config.features.settings.description": "功能開關：套用／還原建議設定的指令。",
+  "config.features.copyPlainText.description": "功能開關：純文字複製。",
+  "config.features.pastePlainText.description": "功能開關：純文字貼上。",
+  "config.features.safePasteToTerminal.description": "功能開關：安全貼到終端機。",
+  "config.features.terminalImagePaste.description": "功能開關：儲存剪貼簿圖片，並將其路徑插入目前的終端機（僅限 Windows）。",
+  "config.terminalImagePaste.saveDirectory.description": "terminal-image-paste 儲存圖片的資料夾（絕對路徑）。空白時儲存到擴充功能 globalStorage 下的 `images`。",
+  "config.terminalImagePaste.fileNamePattern.description": "儲存檔名的格式。`YYYY`/`MM`/`DD`/`HH`/`mm`/`ss` 會替換成日期與時間。沒有副檔名時會自動加上 `.png`。",
+  "config.terminalImagePaste.appendTrailingSpace.description": "在插入終端機的儲存路徑後面加一個空格（方便接著輸入 CLI 參數）。"
+}

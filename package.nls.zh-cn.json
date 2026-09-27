@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings（应用推荐设置）",
+  "command.restorePreviousSettings.title": "Restore Previous Settings（恢复之前的设置）",
+  "command.copyPlainText.title": "Copy as Plain Text（以纯文本复制）",
+  "command.pastePlainText.title": "Paste as Plain Text（以纯文本粘贴）",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal（安全粘贴到终端）",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal（将图片粘贴到终端（保存并插入路径））",
+  "command.openSettings.title": "Open Settings（打开设置（开关））",
+  "config.enabled.description": "扩展的总开关。关闭后所有命令都将停用。",
+  "config.showOnboarding.description": "首次启动时显示简短的使用引导。",
+  "config.backupSettings.description": "应用推荐设置前备份当前设置（仅首次应用时）。",
+  "config.confirmMultiLineTerminalPaste.description": "向终端粘贴多行内容前显示确认对话框。",
+  "config.multiLinePreviewMaxLines.description": "确认终端粘贴时显示的预览最大行数。",
+  "config.language.description": "消息的显示语言。`auto` 跟随编辑器的显示语言（不支持的语言显示为英语）。支持：`ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr`（日语、英语、简体中文、繁体中文、韩语、西班牙语、法语）。",
+  "config.features.settings.description": "功能开关：应用／恢复推荐设置的命令。",
+  "config.features.copyPlainText.description": "功能开关：纯文本复制。",
+  "config.features.pastePlainText.description": "功能开关：纯文本粘贴。",
+  "config.features.safePasteToTerminal.description": "功能开关：安全粘贴到终端。",
+  "config.features.terminalImagePaste.description": "功能开关：保存剪贴板图片，并将其路径插入当前终端（仅限 Windows）。",
+  "config.terminalImagePaste.saveDirectory.description": "terminal-image-paste 保存图片的文件夹（绝对路径）。留空时保存到扩展 globalStorage 下的 `images`。",
+  "config.terminalImagePaste.fileNamePattern.description": "保存文件名的格式。`YYYY`/`MM`/`DD`/`HH`/`mm`/`ss` 会替换为日期和时间。没有扩展名时会自动加上 `.png`。",
+  "config.terminalImagePaste.appendTrailingSpace.description": "在插入终端的保存路径末尾加一个空格（便于继续输入 CLI 参数）。"
+}

@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings (Appliquer les réglages recommandés)",
+  "command.restorePreviousSettings.title": "Restore Previous Settings (Restaurer les réglages précédents)",
+  "command.copyPlainText.title": "Copy as Plain Text (Copier en texte brut)",
+  "command.pastePlainText.title": "Paste as Plain Text (Coller en texte brut)",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal (Collage sécurisé dans le terminal)",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal (Coller une image dans le terminal : enregistrer et insérer le chemin)",
+  "command.openSettings.title": "Open Settings (Ouvrir les réglages avec interrupteurs)",
+  "config.enabled.description": "Interrupteur principal de l'extension. Le désactiver désactive toutes les commandes.",
+  "config.showOnboarding.description": "Affiche un court guide au premier démarrage de l'extension.",
+  "config.backupSettings.description": "Sauvegarde vos réglages actuels avant d'appliquer les réglages recommandés (la première fois seulement).",
+  "config.confirmMultiLineTerminalPaste.description": "Affiche une boîte de confirmation avant de coller plusieurs lignes dans le terminal.",
+  "config.multiLinePreviewMaxLines.description": "Nombre maximal de lignes d'aperçu affichées lors de la confirmation d'un collage dans le terminal.",
+  "config.language.description": "Langue des messages. `auto` suit la langue d'affichage de l'éditeur (anglais si elle n'est pas prise en charge). Langues prises en charge : `ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr` (japonais, anglais, chinois simplifié, chinois traditionnel, coréen, espagnol, français).",
+  "config.features.settings.description": "Activer/désactiver la fonction : commandes pour appliquer / restaurer les réglages recommandés.",
+  "config.features.copyPlainText.description": "Activer/désactiver la fonction : copier en texte brut.",
+  "config.features.pastePlainText.description": "Activer/désactiver la fonction : coller en texte brut.",
+  "config.features.safePasteToTerminal.description": "Activer/désactiver la fonction : collage sécurisé dans le terminal.",
+  "config.features.terminalImagePaste.description": "Activer/désactiver la fonction : enregistrer l'image du presse-papiers et insérer son chemin dans le terminal actif (Windows uniquement).",
+  "config.terminalImagePaste.saveDirectory.description": "Dossier (chemin absolu) où terminal-image-paste enregistre les images. S'il est vide, les images sont enregistrées dans `images` sous le globalStorage de l'extension.",
+  "config.terminalImagePaste.fileNamePattern.description": "Modèle du nom de fichier enregistré. `YYYY`/`MM`/`DD`/`HH`/`mm`/`ss` sont remplacés par la date et l'heure. `.png` est ajouté s'il n'y a pas d'extension.",
+  "config.terminalImagePaste.appendTrailingSpace.description": "Ajoute une espace après le chemin inséré dans le terminal (pratique pour continuer à saisir des arguments de CLI)."
+}

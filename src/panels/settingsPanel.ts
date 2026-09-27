@@ -11,7 +11,7 @@
  */
 import * as vscode from "vscode";
 import { CONFIG, EXTENSION_ID } from "../utils/constants";
-import { getMessages } from "../utils/messages";
+import { getMessages, resolveLang } from "../utils/messages";
 import { isImagePasteSupported } from "../services/imageClipboardService";
 
 /** パネルに並べるトグル項目の定義（設定キーは EXTENSION_ID 相対）。 */
@@ -141,7 +141,7 @@ function renderHtml(): string {
   ].join("; ");
 
   return `<!DOCTYPE html>
-<html lang="ja">
+<html lang="${resolveLang()}">
 <head>
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Security-Policy" content="${csp}" />

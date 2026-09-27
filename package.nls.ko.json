@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings (추천 설정 적용)",
+  "command.restorePreviousSettings.title": "Restore Previous Settings (이전 설정으로 복원)",
+  "command.copyPlainText.title": "Copy as Plain Text (일반 텍스트로 복사)",
+  "command.pastePlainText.title": "Paste as Plain Text (일반 텍스트로 붙여넣기)",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal (터미널에 안전하게 붙여넣기)",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal (이미지를 터미널에 붙여넣기(저장 후 경로 입력))",
+  "command.openSettings.title": "Open Settings (설정 열기(스위치))",
+  "config.enabled.description": "확장 기능의 마스터 스위치. 끄면 모든 명령이 비활성화됩니다.",
+  "config.showOnboarding.description": "처음 실행할 때 간단한 안내를 표시합니다.",
+  "config.backupSettings.description": "추천 설정을 적용하기 전에 현재 설정을 백업합니다(처음 적용할 때만).",
+  "config.confirmMultiLineTerminalPaste.description": "여러 줄을 터미널에 붙여넣기 전에 확인 대화 상자를 표시합니다.",
+  "config.multiLinePreviewMaxLines.description": "터미널 붙여넣기를 확인할 때 표시할 미리보기의 최대 줄 수.",
+  "config.language.description": "메시지 표시 언어. `auto`는 편집기의 표시 언어를 따릅니다(지원하지 않는 언어는 영어). 지원: `ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr`(일본어, 영어, 중국어 간체, 중국어 번체, 한국어, 스페인어, 프랑스어).",
+  "config.features.settings.description": "기능 켜기/끄기: 추천 설정 적용/복원 명령.",
+  "config.features.copyPlainText.description": "기능 켜기/끄기: 서식 없이 복사.",
+  "config.features.pastePlainText.description": "기능 켜기/끄기: 일반 텍스트로 붙여넣기.",
+  "config.features.safePasteToTerminal.description": "기능 켜기/끄기: 터미널에 안전하게 붙여넣기.",
+  "config.features.terminalImagePaste.description": "기능 켜기/끄기: 클립보드 이미지를 저장하고 그 경로를 현재 터미널에 입력(Windows 전용).",
+  "config.terminalImagePaste.saveDirectory.description": "terminal-image-paste가 이미지를 저장할 폴더(절대 경로). 비워 두면 확장 기능 globalStorage 아래 `images`에 저장합니다.",
+  "config.terminalImagePaste.fileNamePattern.description": "저장 파일 이름 패턴. `YYYY`/`MM`/`DD`/`HH`/`mm`/`ss`를 날짜와 시간으로 바꿉니다. 확장자가 없으면 `.png`를 붙입니다.",
+  "config.terminalImagePaste.appendTrailingSpace.description": "터미널에 입력하는 저장 경로 끝에 공백을 붙입니다(CLI 인수를 이어서 입력하기 쉬워집니다)."
+}

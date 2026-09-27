@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings（おすすめ設定を適用）",
+  "command.restorePreviousSettings.title": "Restore Previous Settings（以前の設定に戻す）",
+  "command.copyPlainText.title": "Copy as Plain Text（書式なしでコピー）",
+  "command.pastePlainText.title": "Paste as Plain Text（書式なしで貼り付け）",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal（ターミナルへ安全に貼り付け）",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal（画像をターミナルへ貼り付け（保存してパスを入力））",
+  "command.openSettings.title": "Open Settings（設定を開く（スイッチ））",
+  "config.enabled.description": "拡張機能のマスタースイッチ。オフにするとすべてのコマンドが無効になります。",
+  "config.showOnboarding.description": "初回起動時に簡単な案内を表示します。",
+  "config.backupSettings.description": "推奨設定を適用する前に、現在の設定をバックアップします（初回適用時のみ）。",
+  "config.confirmMultiLineTerminalPaste.description": "ターミナルへ複数行を貼り付ける前に確認ダイアログを表示します。",
+  "config.multiLinePreviewMaxLines.description": "ターミナル貼り付け確認時に表示するプレビューの最大行数。",
+  "config.language.description": "メッセージの表示言語。`auto` はエディタの表示言語に従います（対応外の言語は英語）。対応: `ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr`（日本語・英語・中国語簡体字・中国語繁体字・韓国語・スペイン語・フランス語）。",
+  "config.features.settings.description": "機能のオン/オフ: おすすめ設定の適用／復元コマンド。",
+  "config.features.copyPlainText.description": "機能のオン/オフ: 書式なしコピー。",
+  "config.features.pastePlainText.description": "機能のオン/オフ: プレーンテキスト貼り付け。",
+  "config.features.safePasteToTerminal.description": "機能のオン/オフ: ターミナルへの安全な貼り付け。",
+  "config.features.terminalImagePaste.description": "機能のオン/オフ: クリップボード画像を保存し、保存パスをアクティブなターミナルへ挿入（Windows のみ）。",
+  "config.terminalImagePaste.saveDirectory.description": "terminal-image-paste の画像保存先フォルダ（絶対パス）。空の場合は拡張機能の globalStorage 配下 `images` に保存します。",
+  "config.terminalImagePaste.fileNamePattern.description": "保存ファイル名のパターン。`YYYY`/`MM`/`DD`/`HH`/`mm`/`ss` を日時に置換します。拡張子が無い場合は `.png` を付与します。",
+  "config.terminalImagePaste.appendTrailingSpace.description": "ターミナルへ挿入する保存パスの末尾に半角スペースを付けます（CLI 引数を続けて入力しやすくなります）。"
+}

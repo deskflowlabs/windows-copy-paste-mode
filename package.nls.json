@@ -1,0 +1,23 @@
+{
+  "command.applyRecommendedSettings.title": "Apply Recommended Settings",
+  "command.restorePreviousSettings.title": "Restore Previous Settings",
+  "command.copyPlainText.title": "Copy as Plain Text",
+  "command.pastePlainText.title": "Paste as Plain Text",
+  "command.safePasteToTerminal.title": "Safe Paste to Terminal",
+  "command.pasteImageToTerminal.title": "Paste Image to Terminal (save & insert path)",
+  "command.openSettings.title": "Open Settings (toggle switches)",
+  "config.enabled.description": "Master switch for the extension. Turning it off disables all commands.",
+  "config.showOnboarding.description": "Show a short guide the first time the extension starts.",
+  "config.backupSettings.description": "Back up your current settings before applying the recommended settings (first time only).",
+  "config.confirmMultiLineTerminalPaste.description": "Show a confirmation dialog before pasting multiple lines into the terminal.",
+  "config.multiLinePreviewMaxLines.description": "Maximum number of preview lines shown when confirming a terminal paste.",
+  "config.language.description": "Display language for messages. `auto` follows the editor's display language (English if it is not supported). Supported: `ja` / `en` / `zh-cn` / `zh-tw` / `ko` / `es` / `fr` (Japanese, English, Simplified Chinese, Traditional Chinese, Korean, Spanish, French).",
+  "config.features.settings.description": "Feature on/off: commands to apply / restore the recommended settings.",
+  "config.features.copyPlainText.description": "Feature on/off: copy as plain text.",
+  "config.features.pastePlainText.description": "Feature on/off: paste as plain text.",
+  "config.features.safePasteToTerminal.description": "Feature on/off: safe paste to terminal.",
+  "config.features.terminalImagePaste.description": "Feature on/off: save the clipboard image and insert its path into the active terminal (Windows only).",
+  "config.terminalImagePaste.saveDirectory.description": "Folder (absolute path) where terminal-image-paste saves images. If empty, images are saved in `images` under the extension's globalStorage.",
+  "config.terminalImagePaste.fileNamePattern.description": "File name pattern for saved images. `YYYY`/`MM`/`DD`/`HH`/`mm`/`ss` are replaced with the date and time. `.png` is added if there is no extension.",
+  "config.terminalImagePaste.appendTrailingSpace.description": "Add a space after the saved path inserted into the terminal (makes it easier to keep typing CLI arguments)."
+}
